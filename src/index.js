@@ -54,5 +54,5 @@ app.post("/signup", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("port connected");
+  // console.log("port connected");
 });
