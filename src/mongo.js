@@ -21,7 +21,7 @@ const LogInSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-});
+},{ timestamps: true } );
 
 const shop_user = new mongoose.model("shop_user", LogInSchema);
 
